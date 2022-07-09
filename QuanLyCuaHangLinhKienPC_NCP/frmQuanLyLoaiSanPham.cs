@@ -238,6 +238,7 @@ namespace QuanLyCuaHangLinhKienPC_NCP
 
         private void txtTimKiemNhanh_OnValueChanged(object sender, EventArgs e)
         {
+            ///djnaosdj9iapojfp9asjfck9pwqe
             dgvDanhSachLoaiSP.AutoGenerateColumns = false;
             dgvDanhSachLoaiSP.DataSource = loaiSPBus.LoadLoaiSPTheoKeyWork(txtTimKiemNhanh.Text);
         }
