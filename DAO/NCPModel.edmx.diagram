@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6cef731233d545999369612335afbae3" Name="Diagram1">
+        <EntityTypeShape EntityType="NCPModel.BaoHanh" Width="1.5" PointX="3" PointY="17" IsExpanded="true" />
+        <EntityTypeShape EntityType="NCPModel.ChiTietBH" Width="1.5" PointX="5.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NCPModel.ChiTietHoaDon" Width="1.5" PointX="8.25" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NCPModel.ChiTietPhieuNhap" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NCPModel.ChucVu" Width="1.5" PointX="1.5" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="NCPModel.HoaDon" Width="1.5" PointX="3" PointY="19.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="NCPModel.KhachHang" Width="1.5" PointX="0.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NCPModel.LoaiSanPham" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NCPModel.NhaCungCap" Width="1.5" PointX="3" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NCPModel.NhanVien" Width="1.5" PointX="0.75" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="NCPModel.PhanQuyen" Width="1.5" PointX="1.75" PointY="23.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NCPModel.PhieuNhap" Width="1.5" PointX="3" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NCPModel.SanPham" Width="1.5" PointX="3" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="NCPModel.TaiKhoan" Width="1.5" PointX="4" PointY="13.25" IsExpanded="true" />
+        <AssociationConnector Association="NCPModel.FK_ChiTietBH_BaoHanh" ManuallyRouted="false" />
+        <AssociationConnector Association="NCPModel.FK_ChiTietHoaDon_BaoHanh" ManuallyRouted="false" />
+        <AssociationConnector Association="NCPModel.FK_ChiTietBH_HoaDon" ManuallyRouted="false" />
+        <AssociationConnector Association="NCPModel.FK_ChiTietBH_KhachHang" ManuallyRouted="false" />
+        <AssociationConnector Association="NCPModel.FK_ChiTietBH_SanPham" ManuallyRouted="false" />
+        <AssociationConnector Association="NCPModel.FK_ChiTietHoaDon_HoaDon" ManuallyRouted="false" />
+        <AssociationConnector Association="NCPModel.FK_ChiTietHoaDon_SanPham" ManuallyRouted="false" />
+        <AssociationConnector Association="NCPModel.FK_ChiTietPhieuNhap_NhaCungCap" ManuallyRouted="false" />
+        <AssociationConnector Association="NCPModel.FK_ChiTietPhieuNhap_PhieuNhap" ManuallyRouted="false" />
+        <AssociationConnector Association="NCPModel.FK_ChiTietPhieuNhap_SanPham" ManuallyRouted="false" />
+        <AssociationConnector Association="NCPModel.FK_NhanVien_ChucVu" ManuallyRouted="false" />
+        <AssociationConnector Association="NCPModel.FK_HoaDon_KhachHang" ManuallyRouted="false" />
+        <AssociationConnector Association="NCPModel.FK_HoaDon_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="NCPModel.FK_SanPham_Loai" ManuallyRouted="false" />
+        <AssociationConnector Association="NCPModel.FK_PhieuNhap_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="NCPModel.FK_TaiKhoan_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="NCPModel.FK_TaiKhoan_PhanQuyen" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
